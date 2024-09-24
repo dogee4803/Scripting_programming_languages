@@ -3,3 +3,5 @@
 ## Группа: АСУБ-21-1
 
 [![ru](https://img.shields.io/badge/Лаб1_Работа_с_сетевыми_протоколами.-red)](https://github.com/dogee4803/Scripting_programming_languages/blob/main/Lab%231/lab1.py)
+
+[![ru](https://img.shields.io/badge/Лаб2_Работа_с_протоколами_TCP_и_UDP.-orange)](https://github.com/dogee4803/Scripting_programming_languages/blob/main/Lab%232)
