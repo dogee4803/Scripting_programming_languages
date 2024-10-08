@@ -17,12 +17,12 @@ body TEXT NOT NULL
 
 # Получение данных с сервера
 get_response = requests.get("https://jsonplaceholder.typicode.com/posts").json()
-
+"""
 # Запись данных в БД
 for rec in get_response:
     cursor.execute('INSERT INTO Posts (userId, title, body) VALUES (?, ?, ?)', (rec["userId"], rec["title"], rec["body"]))
     print(f"Пост {rec["id"]}: {rec}")
-
+"""
 # Чтение данных с БД
 cursor.execute('''
 SELECT *
@@ -33,6 +33,14 @@ posts = cursor.fetchall()
 
 for post in posts:
     print(f"Пост из БД {post}")
+    
+# Чтение данных по пользователю
+cursor.execute('SELECT * FROM Posts WHERE userId = ?', (3, ))
+
+posts_by_user3 = cursor.fetchall()
+
+for post_by_user3 in posts_by_user3:
+    print(f"Пост пользователя 3: {post_by_user3}")
 
 # Сохраняем изменения и закрываем соединение
 connection.commit()
