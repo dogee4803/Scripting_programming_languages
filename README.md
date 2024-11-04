@@ -7,3 +7,5 @@
 [![ru](https://img.shields.io/badge/Лаб№2_Работа_с_протоколами_TCP_и_UDP.-orange)](https://github.com/dogee4803/Scripting_programming_languages/blob/main/Lab%232)
 
 [![ru](https://img.shields.io/badge/Лаб№3_Взаимодействие_с_базами_данных.-yellow)](https://github.com/dogee4803/Scripting_programming_languages/blob/main/Lab%233)
+
+[![ru](https://img.shields.io/badge/Лаб№4_Разработка_приложений_с_пользовательским_интерфейсом.-lime)](https://github.com/dogee4803/Scripting_programming_languages/blob/main/Lab%234)
