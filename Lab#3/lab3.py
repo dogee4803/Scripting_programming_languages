@@ -17,12 +17,12 @@ body TEXT NOT NULL
 
 # Получение данных с сервера
 get_response = requests.get("https://jsonplaceholder.typicode.com/posts").json()
-"""
+
 # Запись данных в БД
 for rec in get_response:
     cursor.execute('INSERT INTO Posts (userId, title, body) VALUES (?, ?, ?)', (rec["userId"], rec["title"], rec["body"]))
     print(f"Пост {rec["id"]}: {rec}")
-"""
+
 # Чтение данных с БД
 cursor.execute('''
 SELECT *
