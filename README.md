@@ -11,3 +11,5 @@
 [![ru](https://img.shields.io/badge/Лаб№4_Разработка_приложений_с_пользовательским_интерфейсом.-lime)](https://github.com/dogee4803/Scripting_programming_languages/blob/main/Lab%234)
 
 [![ru](https://img.shields.io/badge/Лаб№5_Многозадачность_в_приложениях.-blue)](https://github.com/dogee4803/Scripting_programming_languages/blob/main/Lab%235)
+
+[![ru](https://img.shields.io/badge/Лаб№6_Анализ_данных_с_помощью_Python.-purple)](https://github.com/dogee4803/Scripting_programming_languages/blob/main/Lab%236)
